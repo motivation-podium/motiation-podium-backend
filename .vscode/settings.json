@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.preferredDarkColorTheme": "Default Dark+",
-    "python.defaultInterpreterPath": "/usr/bin/python"
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.preferredDarkColorTheme": "Default Dark+"
 }
