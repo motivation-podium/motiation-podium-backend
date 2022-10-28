@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Installing dependencies and running your app...",
+      "label": "Installing dependencies...",
       "type": "shell",
-      "command": "npm i && npm run dev",
+      "command": "npm i",
       "presentation": {
         "reveal": "always",
         "panel": "new"
