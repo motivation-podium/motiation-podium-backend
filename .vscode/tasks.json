@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Installing dependencies...",
+      "label": "Installing extensions and dependencies...",
       "type": "shell",
-      "command": "npm i",
+      "command": "code-server --install-extension xabikos.JavaScriptSnippets --install-extension ms-vscode.vscode-typescript-next --install-extension dbaeumer.vscode-eslint --install-extension esbenp.prettier-vscode --install-extension formulahendry.code-runner && npm i",
       "presentation": {
         "reveal": "always",
         "panel": "new"
