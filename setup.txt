@@ -1,0 +1,10 @@
+
+git add .
+git commit -m "okay"
+git remote add url https://github.com/motivation-podium/motiation-podium-backend.git
+git branch -M main
+git push -u url main
+workwith.mpofficial@gmail.com
+motivationpodium
+motivation-podium
+E63A-F4EB
