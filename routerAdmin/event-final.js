@@ -20,6 +20,7 @@ Router.post("/upload/final/event", (req, res) => {
 });
 Router.get("/final/event", (req, res) => {
   EventModel.find().then((allData) => {
+    console.log("Someone Called event final");
     return res.json(allData);
   });
 });
