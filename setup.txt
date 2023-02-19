@@ -8,3 +8,11 @@ workwith.mpofficial@gmail.com
 motivationpodium
 motivation-podium
 E63A-F4EB
+
+
+Steps of an apui
+
+// sabse phele apimodelbanao
+// us model ko require karo main server file me
+// create an api from router to handle change
+// include the router in your main server

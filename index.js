@@ -9,18 +9,28 @@ const MongoPass = process.env.MONGODBPASS || "karanarora"
 const app = express();
 app.use(cors())
 
-
+// MODEL USER
 require('./models/user')
+// MODEL BLOG
 require('./models/preBlog')
 require("./models/final/blogModel")
+// MODEL EVENT
+require('./models/preEvent')
+require("./models/final/eventModel")
+
 
 dotenv.config()
 app.use(express.json())
+// Routes AUTHURIZATION
 app.use(require("./router/auth-signup"))
 app.use(require("./router/auth-signin"))
-app.use(require("./router/pre-blog"))
 app.use(require("./router/auth-admin"))
+// Routes BLOGS
+app.use(require("./router/pre-blog"))
 app.use(require("./routerAdmin/blog-fianl"))
+// Routes EVENTS
+app.use(require("./router/pre-event"))
+app.use(require("./routerAdmin/event-final"))
 
 // const PORT = process.env.PUBLIC_PORT || 4000;
 
